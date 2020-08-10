@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'users#index'
+
   get 'quarters/ispyv'
   get 'months/reports'
   get 'datasets/show'

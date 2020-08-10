@@ -13,6 +13,10 @@ class UsersController < ApplicationController
   #   end
   # end
 
+  def index
+    
+  end
+
   def password  
   end
 
